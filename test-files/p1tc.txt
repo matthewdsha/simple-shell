@@ -1,0 +1,28 @@
+Part 1
+
+1. pwd
+2. touch a1 a2 a3 a4 a5 a6 a7 a8 a9 a10
+3. ls -l
+4. rm -f a1 a2 a3 a4 a5 a6 a7 a8 a9 a10
+5. echo helloooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+6. mkdir test
+
+Part 2
+
+5. cd test
+6. cd   // should return error
+7. history 0 //should execute pwd which is command #
+8. history -c // verify history cleared with a history command
+9. history
+10. exit
+
+Now test if only last 100 commands are stored.
+Execute
+{cslinux2:}./sish < hist100
+//should output:
+0
+1
+2
+1
+2
+// Dont worry about "sish>"
